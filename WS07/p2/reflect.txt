@@ -1,0 +1,30 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : HYERI JANG
+Student ID#: 115328221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.
+I believe I succeeded in coding non-repetitive sections of logic. During this workshop, I tried to avoid repeating the same code or displaying unnecessary text. Firstly, while implementing a feature that shows the user's current location, I ensured that no spaces are displayed after the user symbol has been printed. Because spaces are unnecessary. Also, when implementing a function that outputs a message when a bomb or treasure is found, I tried to avoid using the same code multiple times. When I first wrote the code, I included code to decrease the number of player moves and code to set position history to visited(=1) within every if/else statement. Later, I avoided duplication by including the code for those two functions as an execution statement of the else statement that determines that the player has not visited the entered position, and outputted a message using an if/else statement nested in that else statement. By doing this, I was able to avoid writing code to do the same thing multiple times.
+
+2.
+By using structure in this workshop, I was able to group related data. The advantage of structures is that they allow you to group variables of different data types, which makes data management much easier. And since we have collected variables that are related to each other, we have more readability and can see at a glance how they are being used. For example, I put variables and an array that contains the player's lives, symbols, number of treasures found, and position history in a structure called PlayerInfo. If I had to do this workshop without using structures, I would have to declare all the variables and arrays separately. This makes it hard to guess how the variable is being used and hard to maintain.
+
+3.
+The maximum number of levels of nesting in my workshop is 3.
+
+while(valid)
+{
+	if(rose == 'red')
+	{
+		if(lily == 'white')
+		{
+		}
+	}
+}

@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : HYERI JANG
+Student ID#: 115328221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.
+People prefer to use a for loop when working with arrays because they can access elements of an array by index. For example, you could declare a variable i, initialize it to 0, set a conditional statement to check whether i is less than the array size, and increment i at the end of each iteration. If you put printf("%d\n", array[i]) as the execution statement of the for loop, all indexes in the array will be printed out. This allows you to access every index in the array one by one. For example, in my part2 code, I used a for loop to get the total price of the items in the wishlist. The for statement was repeated as many times as the number of items, and the value was accumulated in the variable representing the total price by using the addition assignment(+=). In this way, I was able to get the sum of the prices by adding up all the values ​​in the array and accumulating them.
+
+2.
+I read my code out loud to find syntax errors. Also, since there are usually many cases where semicolons are missing or the connection of parentheses is incorrect, I read and checked them several times to make sure they are correct. And I checked to see if I used an undeclared variable. Lastly, I made sure that 'return 0' was included in the code. To find a sematic error, I made sure all variables were initialized and operators were used properly. Also, I tried to predict how the value would change for each line of code, and at what point it behaved differently than I expected. As I learned in class, I did a walk-through and checked how the code was flowing.
+
+3.
+First, open and compare the output.txt file and the w6p2_master_output.txt file to see in detail what needs to be corrected. You will see that there is an error on the line 6 where the user is prompted to enter their monthly net income. $0 should be entered, but your output is $567.89. Since this input is directly entered by the user with the keyboard, there is no need to modify the code. Run your code again, and when prompted for input, enter 0 instead of 567.89. If you do this, it will be submitted without errors.

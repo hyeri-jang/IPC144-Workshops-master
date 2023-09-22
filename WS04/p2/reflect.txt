@@ -1,0 +1,23 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : HYERI JANG
+Student ID#: 115328221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+
+1.
+I kept the coding style consistent for the readability of the code in part1 and part2. For example, when writing a selection or iteration such as an if statement or a for statement, { } is unified to start at the bottom of a line. And I used code blocks for all constructs to make it easier to see the structure of the code. And I tried to write the code more logically by nesting the iteration and selection to reduce the redundancy.
+
+2.
+In the case of part 1, there are common conditions for executing 'do', 'do/while', and 'for' statements. If you had to code without nesting, you would have to write an 'if' statement with a condition for each loop. In addition, the corresponding error message must also be coded several times. This increases the amount of unnecessary code, lowers readability, and makes it difficult to maintain the code. Also, if nesting cannot be used in Part 2, the code that evaluates the number of fruits and displays an error message becomes unnecessarily long. This makes the overall structure of the code complex. And most importantly, the code becomes non-reusable. 
+
+
+3.
+If you want to code the above logic using only the 'if' statement, the 'if' statement must be written twice. First, you have to write an 'if' statement with the condition that evaluates whether the value input by the user is between 1 and 5. And you have to write an 'if' statement with the condition that evaluates that the input value is not a value between 1 and 5. In this way, even if the condition of the first 'if' statement is true, all the condition statements of the remaining 'if' statements are evaluated, which is inefficient and slows down the performance. However, when the 'if/else' statement is used, the 'else' statement is executed immediately when the condition of the 'if' statement is false. This way, you don't have to write the condition twice, and evaluation is more efficient. So it is preferable to use 'if/else' statements rather than multiple 'if' statements.

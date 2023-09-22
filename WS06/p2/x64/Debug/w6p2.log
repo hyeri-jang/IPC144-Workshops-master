@@ -1,0 +1,10 @@
+﻿  w6p2.c
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(163,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(164,70): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(214,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(215,72): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(253,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(254,72): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(291,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hyeri\IPC-Workshops-master\WS06\p2\w6p2.c(292,72): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  w6p2.vcxproj -> C:\Users\hyeri\IPC-Workshops-master\WS06\p2\x64\Debug\w6p2.exe

@@ -1,0 +1,23 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : HYERI JANG
+Student ID#: 115328221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.
+ By allowing the user to choose how a function's return is received, it provides more options for incorporating functions into code. Also it is possible to use the output in different ways depending on your specific needs. However, this method is inefficient and redundant. Having multiple ways to return a value to a function can make it difficult for others to understand how the function works and how to use its output.
+
+
+2.
+ Several functions are called and used in the 'calculateReportData' function. When functions are related to each other are used, it can still be said to have high cohesion. However, in this case, the function for converting units and the function for calculating are used together, so the cohesion can be relatively low. In order to improve this function, I will only include the function that calculates the value.
+
+ Also, the 'convertLbs' function can be considered highly coupled. When coding, it is preferred to keep coupling low. However, to achieve this, the amount of data exchanged between functions must be minimized, and one function must be able to control the calculation of the data. In the 'convertLbs' function, however, the value received as a parameter is passed to two other functions, and control of the calculation is handed over. Therefore, the coupling can be considered high. To improve this, instead of using two separate helper functions, I will create a function that converts both grams and kilograms.
+
+3.
+ If you receive a structure as a parameter and use it, you can access and use all the data in the structure. This increases the intuitiveness of the code and increases the modularity. Rather than passing values and address ​​in the 'DisplayCatfoodData' function, you can improve the function by using the method of passing 'CatfoodInfo' itself, which is a data structure. Since only one value is passed as a parameter, it is more intuitive to know which data is being handled.

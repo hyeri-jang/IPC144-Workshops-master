@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : Hyeri Jang
+Student ID#: 115328221
+Email      : hjang34@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.
+  There is a difference between float and double data types. When using data type float, some values are precisely displayed while others are not because they are displayed as 'approximate values', including error ranges. That is why computers represent floating-point values as the closest value they can represent. Therefore, the output of price1 is inaccurate, but the output of price3 is with the intended value. On the other hand, double represents decimal places more accurately because it can express more decimal places. Therefore, price2 and price4 are outputting the intended values.
+
+2.
+  The data type for the variable money is int. But you want to print the value assigned to the money as a decimal point. However, a variable cannot be output as a decimal point because it loses its decimal value when it is int type. Therefore, you should promote the data type through casting. First, you can do implicit casting by dividing the variable money by 100.0. Alternatively, you can do explicit casting by putting '(double)' before the variable. Entering a data type in parentheses shows that you will cast a value with this data type. In this case, the values you want to cast should be enclosed in parentheses.
+
+3.
+  a) 72. Since int does not indicate a decimal point, the decimal place value does not appear. Therefore, the value of the result is 75.
+  b) 0, 75, 0, 75
+  c) The variable money is declared as data type int. However, printf's specifier is for outputting data type double. If you want to print the value precisely, the result should be cast in double, but casting was not performed in this case. Therefore, the value is not output as intended.

@@ -1,0 +1,6 @@
+case-insensitive
+
+daily serving 값이 1~4에 포함되면 250g
+하여튼 해당되는 사항에 다 1로 표시
+
+how you like you coffee -> 변수 3개

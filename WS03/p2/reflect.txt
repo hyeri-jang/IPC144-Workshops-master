@@ -1,0 +1,32 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Hyeri Jang
+Student ID#: 115328221
+Email      : hjang34@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1.
+(customerCoffeeServing < 5 && 250 == coffee1Weight) ||
+(customerCoffeeServing > 5 && customerCoffeeServing < 10 && 500 == coffee1Weight) ||
+(customerCoffeeServing > 10 && 1000 == coffee1Weight)
+
+A)  I used 3 relational expressions(<,  ==, >). '<' was used to evaluate if the right operand was greater than the left. '==' was used to evaluate if each operends were equal in value. '>' was used to evaluate if the right was less than the left.
+B) I used 2 logical expressions(&&, ||). '&&' is used to evaluate if both operend are true. '||' was used to evaluate if the one of the operends is true. 
+
+
+2. 
+product3Id != product1Id && product3Id != product2Id
+
+I did not apply DeMorgan's Law. I compared product3Id to product1Id and product2Id using the relational expressions !=, which means the left is not equal to the right. If product3Id and product1Id have different values and product3Id and product2Id have different values, the statement will be true. And that means that product3Id has a unique value.
+
+
+3. 
+When declaring variables, it is declared by grouping the same data types. And the variables used for the same purpose are declared in one line. For example, I grouped variables for coffee types in one line, and I did the same for variables for cream and weight. Although it is important to put co-related variables together, I had to group them by data type first and then group by meaning. It is because the alignment of variables declaration affects the uses of memory. More specifically, if I mixed different types of declaration, it would waste some memory space. And it is also easier to read and maintain.  

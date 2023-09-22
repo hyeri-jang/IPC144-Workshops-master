@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Hyeri Jang
+Student ID#: 115328221
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.
+First, using variables and macros provides better readability and maintainability. When you hardcode "magic" numbers in your code, readers may not understand what the numbers mean or what the numbers are for. However, variables and macros make it easier to understand the purpose and meaning of numbers.
+
+Second, using variables and macros enables reusability. By using the same variable name and changing only the value, you can execute code with different inputs. This makes the code more reusable and efficient, as you do not need to write new code each time you want to change a value.
+
+Third, using variables and macros makes it easy to modify values. Hardcoding values can make it difficult to change them later. By using variables and macros, you can change the values where they are declared, and the changes will apply to all parts of the code where the variable or macro is used. Since the change occurs only in one place, the code structure remains unchanged, and the desired value can be entered.
+
+2.
+The reason for calculating sums and averages outside of the validation routines is to improve code readability and modifiability. Calculating sums and averages within validation routines reduces code efficiency by repeating calculations unnecessarily for each input. By placing sums and averages outside of the validation routine, you can generate more efficient code by ensuring that these calculations are performed only once.
